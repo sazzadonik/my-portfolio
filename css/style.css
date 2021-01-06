@@ -1,0 +1,216 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  float: right;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+}
+section {
+  height: 100vh;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.half-width {
+  width: 35%;
+  float: left;
+  margin: 0% 5%;
+  padding: 2%;
+}
+
+.half-width a,
+.chat-info a,
+.blog a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  background-image: linear-gradient(#fc7662, #f76561);
+  padding: 15px 45px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.half-width img {
+  width: 465px;
+  height: 613px;
+}
+
+.introduction h1 {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #363958;
+}
+
+.introduction .name-color {
+  display: block;
+  color: #ff8367;
+}
+.introduction img,
+.about-me img {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.introduction p span {
+  display: block;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  /* margin-top: 200px; */
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #363958;
+}
+
+.about-me {
+}
+.latest-working {
+  background-color: #f8f9fc;
+  padding: 10px 0px;
+}
+.about-me .description {
+  margin-top: 150px;
+}
+.latest-working h2 {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+.latest-working span {
+  color: #f46060;
+}
+
+.project-description {
+  width: 28%;
+  float: left;
+  padding: 1%;
+  box-shadow: 10px 10px 20px #000;
+  background-color: #fff;
+  margin-left: 2%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.project-description h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project-description img {
+  width: 100%;
+}
+
+.blog h4 {
+  font-size: 20px;
+  color: tomato;
+}
+.blog p {
+  text-align: justify;
+}
+
+.work-chat {
+  /* position: absolute; */
+  clear: both;
+}
+.chat-info {
+  /* height: 200px; */
+  width: 60%;
+  height: 200px;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  margin: auto;
+
+  background-image: url("../images/group.png");
+  background-size: 100% 100%;
+}
+
+.chat-info h1 {
+  float: left;
+  margin: 80px 50px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
+}
+.chat-info a {
+  float: right;
+  margin: 80px 50px;
+  display: block;
+}
+
+.work-chat h3 {
+  display: block;
+  margin-top: 180px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  color: gray;
+  font-size: 20px;
+}
+
+.work-chat h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -25px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.work-chat img {
+  height: 40px;
+}
+
+.icon-div ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.icon-div {
+  width: 200px;
+  margin: auto;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+footer p a {
+  text-decoration: none;
+  color: orange;
+  display: inline-block;
+}
